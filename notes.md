@@ -3,12 +3,7 @@
 ### Outliner
 The menu on the right with list of objects is called Outliner
 
-
-
-
 ## Shading Mode
-
-
 Down section: Shading Editor:
 
 ### Shading editor
@@ -38,10 +33,6 @@ Options:
 
 #### Cycles
 Uses raytracing to calculate the light bouncing and takes time to calculate
-
-
-## Index:
-
 
 
 ### Adding objects
@@ -98,3 +89,53 @@ If GPU is greyed out, Go to Edit -> Preferences -> system -> Cuda and Optix
 
 #### Sampling
 Viewport and Render Sampling
+
+
+
+### Duplicate object
+SHIFT  D
+
+
+### Mirror Modifier (Wrench logo)
+Can be added only to one object at a time. Pick the object that would be the axis of the mirror (as items can be mirrored on the central point of some other object)
+
+### Copying data between objects
+CONTROL L
+
+Select Active object and Orange objects. Then control L to copy data, for example modifiers
+
+Copies data from active object(yellow highlight) to Selected object (orange highlight)
+
+
+### Edit Mode
+
+Modyfing meshes. Mesh is highlighted in orange-ish. We can pick between selecting vertices, edges and planes.
+
+Toggle Between Object and Edit mode clicking Tab
+
+3 modes:
+
+ - vertex mode
+ - edge mode
+ - face mode
+
+
+Activities:
+
+#### Extrude
+
+When face selected, press E to extrude the region
+
+#### Loop cut
+CRTL R
+
+
+#### Inset
+Press I 
+
+
+### Local View
+View -> Local View -> Toggle Local View
+
+Shows only the active object
+
